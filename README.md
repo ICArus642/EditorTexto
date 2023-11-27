@@ -59,15 +59,20 @@ void MainWindow::on_actionColor_triggered()
     - Cortar
 
 
-## Contacto
-- **Nombre:** Jonathan Muñoz Jimenez
+## Colaboradores
+- **Nombres:** Jonathan Muñoz Jimenez  -  Luis Felipe Vinasco
 - **IE:** Universidad Tecnologica de Pereira - Colombia
 - **Carrera:** Ingeniería de Sistemas y Computación 
 - **Facultad:** Facultad de Ingenierías
 - **Materia:** Programación II
 - **Profesor:** Felipe Gutierrez Isaza
 - **Correo Personal:** [jonathan060402@gmail.com]
-- **Correo Institucional:** [jonathan.munoz@utp.edu.co]
-- **GitHub:** [ICArus642](https://github.com/ICArus642)
+- **Correo Institucional:**
+- [jonathan.munoz@utp.edu.co]
+- 
+- **GitHub:**
+- [ICArus642](https://github.com/ICArus642)
+- [VinasBOT](https://github.com/VinasBOT)
+- 
 
 **![Logo de la Universidad Tecnologica de Pereira](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_U.T.P.png/320px-Logo_U.T.P.png)**
