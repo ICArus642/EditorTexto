@@ -81,7 +81,7 @@ void MainWindow::on_actionColor_triggered()
 - **Facultad:** Facultad de Ingenierías
 - **Materia:** Programación II
 - **Profesor:** Felipe Gutierrez Isaza
-- **Correo Institucional:**[]
+- **Correo Institucional:**[luis.vinasco@utp.edu.co]
 - **GitHub:** [VinasBOT](https://github.com/VinasBOT)
 
   **![Logo de la Universidad Tecnologica de Pereira](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_U.T.P.png/320px-Logo_U.T.P.png)**
