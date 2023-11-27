@@ -70,6 +70,9 @@ void MainWindow::on_actionColor_triggered()
 - **Correo Institucional:**[jonathan.munoz@utp.edu.co]
 - **GitHub:** [ICArus642](https://github.com/ICArus642)
 
+  
+  **![Logo de la Universidad Tecnologica de Pereira](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_U.T.P.png/320px-Logo_U.T.P.png)**
+
 ## Colaborador
 - **Nombre:** Luis Felipe Vinasco
 - **IE:** Universidad Tecnologica de Pereira - Colombia
