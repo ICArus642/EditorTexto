@@ -15,6 +15,11 @@ Para compilar el proyecto, sigue estos pasos:
 2. Abre el proyecto en el entorno de desarrollo Qt Creator.
 3. Compila el código con ayuda del enterno Qt Creator.
 
+## Logica
+
+El codigo funciona a traves  de las funciones las cuales mediante el manejo de archivos y punteros  permiten acciones como guardar, borrar, abrir, y edicion de texto usando las diversas librerias del entorno de desarrollo QT.
+
+
 ## Funcionamiento
 
 ### `functArchivo.cpp`
