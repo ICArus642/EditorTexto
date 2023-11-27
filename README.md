@@ -1,9 +1,10 @@
 # EditorTexto
 
-#Descripcion
-Proyecto universitario de editor de texto desarrollado con la herramienta Qt Creator. Una herramienta la cual proporciona las fuciones basicas de un editor de texto y que permite manejar bloques de texto editandolos y dando la posibilidad de editar fuente, color, tamaño y ubicacion del texto. ademas de brindar la posibilidad de guardar, abrir y editar un archivo de texto.
+# Descripcion
+Proyecto final correspondiente a la materia de Programacion II. El cual es un editor de texto desarrollado gracias a la herramienta Qt Creator. una herramienta la cual permite la creacion de proyectos con c++ para escritorio, mobile y web. en este caso estamos desarrollando utilizando Cmake para desarrollo desktop. NUestro proyecto proporciona las fuciones basicas de un editor de texto el cual permite manejar bloques de texto dando la posibilidad de editar fuente, color, tamaño y ubicacion del texto para un mejor resultado estetico. ademas de poseer las caracteristicas de guardado, apertura y edicion para un archivo de texto, dando un proyecto mas profesional y completamente funcional.
 
 ## Herramientas utiizadas
+Para este proyecto se han utilizado las siguientes herramientas
 - C++ 20
 - **Qt Creator 6.5.3**
 
@@ -12,7 +13,7 @@ Para compilar el proyecto, sigue estos pasos:
 
 1. Clona el repositorio.
 2. Abre el proyecto en el entorno de desarrollo Qt Creator.
-3. Compila el código con ayuda del enterno Qt.
+3. Compila el código con ayuda del enterno Qt Creator.
 
 ## Funcionamiento
 
