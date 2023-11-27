@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="actionEliminar_2"/>
+   </widget>
+   <widget class="QMenu" name="menuEdici_n">
+    <property name="title">
+     <string>Edición</string>
+    </property>
+    <widget class="QMenu" name="menuAlineaci_n">
+     <property name="title">
+      <string>Alineación</string>
+     </property>
+     <addaction name="actionDerecha"/>
+     <addaction name="actionCentro"/>
+     <addaction name="actionIzquierda"/>
+    </widget>
+    <addaction name="actionCopiar"/>
+    <addaction name="actionPegar"/>
+    <addaction name="actionCortar"/>
+    <addaction name="actionFuente"/>
+    <addaction name="actionColor"/>
+    <addaction name="menuAlineaci_n"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEdici_n"/>
+  </widget>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Abrir.png</normaloff>:/Abrir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Guardar.png</normaloff>:/Guardar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Copiar.png</normaloff>:/Copiar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Pegar.png</normaloff>:/Pegar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+  </action>
+  <action name="actionCortar">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Cortar.png</normaloff>:/Cortar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="icon">
+    <iconset resource="Imprimir.qrc">
+     <normaloff>:/Imprimir.png</normaloff>:/Imprimir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </action>
+  <action name="actionEliminar_2">
+   <property name="icon">
+    <iconset resource="Iconos.qrc">
+     <normaloff>:/Eliminar.png</normaloff>:/Eliminar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </action>
+  <action name="actionFuente">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Downloads/Fuente.png</normaloff>../../../../Downloads/Fuente.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fuente</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../Downloads/Color.png</normaloff>../../../../Downloads/Color.png</iconset>
+   </property>
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionDerecha">
+   <property name="text">
+    <string>Derecha</string>
+   </property>
+  </action>
+  <action name="actionCentro">
+   <property name="text">
+    <string>Centro</string>
+   </property>
+  </action>
+  <action name="actionIzquierda">
+   <property name="text">
+    <string>Izquierda</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Imprimir.qrc"/>
+  <include location="Iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
